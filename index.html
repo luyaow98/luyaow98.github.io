@@ -15,16 +15,16 @@
       color: #222;
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       color: #1f4e79;
     }
 
     .section {
       background: white;
-      padding: 20px;
-      margin-bottom: 20px;
+      padding: 24px;
+      margin-bottom: 24px;
       border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
 
     a {
@@ -39,49 +39,105 @@
     ul {
       padding-left: 20px;
     }
+
+    .project-image {
+      width: 100%;
+      max-width: 700px;
+      display: block;
+      margin: 15px auto;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      margin-top: -5px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
 
   <div class="section">
     <h1>Luyao Wang</h1>
-    <p>MSCAPP Student at the University of Chicago</p>
-    <p>I am a graduate student in Computational Analysis and Public Policy with interests in data analysis, public policy, and data visualization.</p>
-  </div>
-
-  <div class="section">
-    <h2>About Me</h2>
-    <p>I am currently studying in the MSCAPP program at the University of Chicago. My coursework and projects focus on programming, statistics, data analysis, and public policy applications.</p>
-  </div>
-
-  <div class="section">
-    <h2>Featured Project: CAPP 30122 Project</h2>
-    <h3>Chicago Crime and Education Analysis</h3>
-    <p>This project explores the relationship between education levels and crime rates across Chicago neighborhoods. Using public datasets, we cleaned, merged, and analyzed the data, then built visualizations to better understand patterns across census tracts.</p>
-
-    <p><strong>What I worked on:</strong></p>
-    <ul>
-      <li>Data cleaning and preparation</li>
-      <li>Exploratory data analysis</li>
-      <li>Altair visualizations including histograms and scatter plots</li>
-      <li>Interpreting patterns between education and crime-related variables</li>
-    </ul>
-
-    <p><strong>Tools used:</strong> Python, Pandas, Altair, GitHub</p>
-
-    <p><strong>Project GitHub Repository:</strong><br>
-      <a href="https://github.com/uchicago-2026-capp30122/project-a-little-bit.git" target="_blank">View Project Repository</a>
+    <p><strong>MSCAPP Student at the University of Chicago</strong></p>
+    <p>
+      Email: <a href="mailto:luyaow@uchicago.edu">luyaow@uchicago.edu</a>
+    </p>
+    <p>
+      GitHub: <a href="https://github.com/luyaow98" target="_blank">https://github.com/luyaow98</a>
     </p>
   </div>
 
   <div class="section">
-    <h2>Links</h2>
-    <p><a href="https://github.com/luyaow98" target="_blank">GitHub Profile</a></p>
+    <h2>About Me</h2>
+    <p>
+      I am a graduate student in the MSCAPP (Computational Analysis and Public Policy) program at the University of Chicago.
+      I received my undergraduate degree in Finance and am now building my skills in data analysis and computational work.
+      Through my coursework, I am currently learning Python, linear algebra, statistics, and data visualization.
+    </p>
+    <p>
+      I am interested in using data to better understand real-world social and policy issues.
+    </p>
   </div>
 
   <div class="section">
-    <h2>Contact</h2>
-    <p>Email: luyaow@uchicago.edu</p>
+    <h2>Featured Project</h2>
+    <h3>Chicago Crime and Education Analysis</h3>
+
+    <p>
+      This project explores the relationship between education levels and crime rates across Chicago neighborhoods using public datasets.
+      The goal of the project is to examine whether neighborhoods with different levels of educational attainment show different patterns in crime.
+    </p>
+
+    <p>
+      This was a team project completed as part of CAPP 30122.
+    </p>
+
+    <p><strong>My contributions:</strong></p>
+    <ul>
+      <li>Contributed to writing and organizing the project README</li>
+      <li>Created exploratory visualizations, including scatter plots and histograms</li>
+      <li>Helped present and explain patterns shown in the data</li>
+    </ul>
+
+    <p><strong>Tools used:</strong> Python, Pandas, Altair, GitHub</p>
+    <p><strong>Data sources:</strong> Chicago Open Data and ACS-related datasets</p>
+
+    <p>
+      <strong>Project Repository:</strong><br>
+      <a href="https://github.com/uchicago-2026-capp30122/project-a-little-bit" target="_blank">
+        View the project on GitHub
+      </a>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Project Visualizations</h2>
+
+    <img src="scatter.png" alt="Scatter plot from the Chicago Crime and Education Analysis project" class="project-image">
+    <p class="caption">Scatter plot showing the relationship between education-related variables and crime patterns.</p>
+
+    <img src="histogram1.png" alt="Histogram showing distribution of crime rate" class="project-image">
+    <p class="caption">Histogram showing the distribution of crime rate across Chicago neighborhoods.</p>
+
+    <img src="histogram2.png" alt="Histogram showing distribution of education level" class="project-image">
+    <p class="caption">Histogram showing the distribution of education-related variables.</p>
+
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Pandas</li>
+      <li>Altair</li>
+      <li>Data visualization</li>
+      <li>Exploratory data analysis</li>
+      <li>Git and GitHub</li>
+    </ul>
   </div>
 
 </body>
